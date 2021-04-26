@@ -2,4 +2,4 @@
 
 - UI in Html 
 - function to open webcam
-- hosted on heroku
+- hosted on firebase
