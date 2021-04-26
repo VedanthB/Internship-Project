@@ -108,15 +108,16 @@ const PreviewButton = styled.div `
 	border-radius:30px;	
 	padding:6px 20px;
 	font-size: 14px;
-	/* position: relative; */
-	right:80px;
+	right: 85px;
 	top:15px;
 	z-index: 1;
 	cursor: pointer;
     position: relative;
     top: 80px; 
     /* margin-right: 0px; */
-
+    :hover {
+            opacity: 0.8;
+        }
 `
 
 
@@ -124,7 +125,7 @@ const VideoContainer = styled.div `
   /* display: flex; */
 
  > video {
-    width: 700px;
+    width: 800px;
     height: 480px;
     background: #000;
 	position: relative;
@@ -163,6 +164,10 @@ const ButtonContainer = styled.div `
     width: 100px;
     cursor: pointer;
     margin-bottom:  20px;
+
+    :hover {
+            opacity: 0.8;
+        }
   }
      > h3 {
         color:#a54ae5;
@@ -171,7 +176,9 @@ const ButtonContainer = styled.div `
 	    padding-bottom:16px;
         cursor: pointer;
         position: relative;
-        margin-left: 490px;
+        margin-left: 600px;
+
+       
      }
 
 `
@@ -189,16 +196,24 @@ const VideoIconsLeft = styled.div`
     width: 60px;
     margin: 5px;
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     cursor: pointer;
+
+    :hover {
+            opacity: 0.8;
+        }
 }
     > span > img {      
-      width: 60px;
+      width: 40px;
       margin: 5px;
       position: relative;
-      bottom: 80px;
+      bottom: 60px;
       cursor: pointer;
-      margin-left: 200px;
+      margin-left: 330px;
+
+      :hover {
+            opacity: 0.8;
+        }
     }
-}
+
 `

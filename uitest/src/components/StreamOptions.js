@@ -29,7 +29,7 @@ const Container = styled.div `
   position: relative;
   margin-left: 70px;
   width:750px;
-  bottom: 70px;
+  bottom: 50px;
 
 > img {
     margin: 10px;
@@ -42,5 +42,9 @@ const Container = styled.div `
 	line-height:50px;
 	position:relative;
     cursor: pointer;
+
+    :hover {
+            opacity: 0.8;
+        }
 }
 `
