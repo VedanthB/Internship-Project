@@ -35,7 +35,6 @@ const SwitchButton = styled.span`
     left: calc(100% - 2px);
     transform: translateX(-100%);
   }
-
   ${SwitchLabel}:active & {
     width: 45px;
   }
